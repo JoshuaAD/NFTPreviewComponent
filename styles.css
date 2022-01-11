@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0D192C;
+}
+
+.card {
+    position: absolute;
+    width: 350px;
+    height: 596px;
+    left: 545px;
+    top: 152px;
+    background-color: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+}
+
+.card-image {
+    position: absolute;
+    left: 6.86%;
+    right: 6.86%;
+    top: 4.03%;
+    bottom: 45.3%;
+    background-image: url("./images/image-equilibrium.jpg");
+    background-size: contain;
+    border-radius: 8px;
+}
+
+.header {
+    position: absolute;
+    left: 6.86%;
+    right: 6.86%;
+    top: 58.72%;
+    bottom: 36.58%;
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.description {
+    position: absolute;
+    height: 52px;
+    left: 6.86%;
+    right: 6.86%;
+    top: calc(50% - 52px/2 + 122px);
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8BACD9;
+}
+
+.price-time {
+    position: absolute;
+    left: 6.86%;
+    right: 7.14%;
+    top: 78.86%;
+    bottom: 17.79%;
+}
+
+.price {
+    position: absolute;
+    left: 0%;
+    right: 68.94%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.eth-icon {
+    position: absolute;
+    left: 0%;
+    right: 88.23%;
+    top: 5%;
+    bottom: 5%;
+}
+
+.eth-price {
+    position: absolute;
+    display: inline-block;
+    height: 20px;
+    left: 18.7%;
+    right: 1.07%;
+    top: calc(50% - 20px/2);
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FFF8;
+}
+
+.clock-icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 203.3px;
+    top: 2.67px;
+}
+
+.time-left {
+    position: absolute;
+    display: inline-block;
+    height: 20px;
+    left: 75.42%;
+    right: 0.33%;
+    top: calc(50% - 20px/2);
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+}
+
+hr {
+    position: absolute;
+    left: 6.86%;
+    right: 6.86%;
+    top: 86.24%;
+    bottom: 13.59%;
+    background-color: #2E405A;
+    height: 1px;
+}
+
+.caption-image {
+    position: absolute;
+    left: 6.86%;
+    right: 83.71%;
+    top: 89.09%;
+    bottom: 5.37%;
+    background-image: url("./images/image-avatar.png");
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+.caption {
+    position: absolute;
+    left: 20.86%;
+    right: 27.43%;
+    top: 90.1%;
+    bottom: 6.54%;
+}
+
+.creation {
+    position: absolute;
+    display: inline-block;
+    height: 20px;
+    left: 0%;
+    right: 55.25%;
+    top: calc(50% - 20px/2);
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+}
+
+.name {
+    position: absolute;
+    height: 20px;
+    left: 47.51%;
+    right: 1.1%;
+    top: calc(50% - 20px/2);
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.header:hover {
+    cursor: pointer;
+}
+
+.header:active {
+    color: #00FFF8;
+}
+
+.card-image:hover {
+    cursor: pointer;
+}
+
+.name:hover {
+    cursor: pointer;
+}
+
+.name:active {
+    color: #00FFF8;
+}
+
+
+@media only screen and (max-width: 376px) {
+    .card {
+        position: absolute;
+        width: 327px;
+        height: 543px;
+        left: 24px;
+        top: 62px;
+    }
+
+    .price-time {
+        position: absolute;
+        width: 278px;
+        height: 19px;
+        left: 24px;
+        top: 434px;
+    }
+
+    .time {
+        position: absolute;
+        left: 64.01%;
+        right: 7.65%;
+        top: 79.93%;
+        bottom: 16.57%;
+    }
+
+    .clock-icon {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        left: 0px;
+        top: 1.67px;
+    }
+
+    .time-left {
+        position: absolute;
+        height: 19px;
+        left: 25.56%;
+        right: 1.08%;
+        top: calc(50% - 19px/2);
+        font-family: Outfit;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 19px;
+        color: #8BACD9;
+    }
+
+    .price {
+        position: absolute;
+        left: 7.34%;
+        right: 65.6%;
+        top: 79.93%;
+        bottom: 16.57%;
+    }
+
+    .description {
+        position: absolute;
+        height: 52px;
+        left: 7.34%;
+        right: 7.65%;
+        top: calc(50% - 52px/2 + 120.5px);
+        font-family: Outfit;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 26px;
+        color: #8BACD9;
+    }
+
+    hr {
+        position: absolute;
+        left: 7.34%;
+        right: 7.65%;
+        top: 86.37%;
+        bottom: 13.44%
+    }
+
+    .caption-wrap {
+        position: absolute;
+        width: 219px;
+        height: 33px;
+        left: 24px;
+        top: 486px;
+    }
+
+    .header {
+        position: absolute;
+        left: 7.34%;
+        right: 7.65%;
+        top: 60.04%;
+        bottom: 34.81%;
+        font-family: Outfit;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .card-image {
+        position: absolute;
+        left: 7.34%;
+        right: 7.65%;
+        top: 4.42%;
+        bottom: 44.38%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 8px;
+    }
+}
